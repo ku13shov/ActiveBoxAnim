@@ -1,6 +1,6 @@
 body {
   margin: 0;
-
+  overflow-x: hidden;
   font-family: 'Raleway', sans-serif;
   font-size: 14px;
   color: #6c7279;
