@@ -173,11 +173,25 @@ p {
   margin: 95px 0;
 }
 
+.features__item:nth-child(1),
+.features__item:nth-child(4){
+  animation-delay: .3s;
+}
+.features__item:nth-child(2),
+.features__item:nth-child(5){
+  animation-delay: .5s;
+}
+.features__item:nth-child(3),
+.features__item:nth-child(6){
+  animation-delay: .7s;
+}
+
 .features__item {
   width: 33.33333%;
   padding: 0 40px;
   text-align: center;
   margin: 25px 0;
+  animation-duration: 2s;
 }
 
 .features__icon {
@@ -214,6 +228,7 @@ p {
   overflow: hidden;
   border-bottom: 1px solid #fff;
   border-right: 1px solid #fff;
+  animation-duration: 2s;
 }
 
 .works__item:hover .works__content {
@@ -277,7 +292,7 @@ p {
   width: 25%;
   padding: 0 15px;
   margin-bottom: 30px;
-
+  animation-duration: 2s;
 }
 
 .team__photo {
